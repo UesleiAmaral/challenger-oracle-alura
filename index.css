@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-bottom: 4%;
+    font-size: 2.0rem;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.container {
+    width: 50%;
+    height: 80vh;
+    margin: 4% auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    box-shadow: 1px 1px 10px hsl(179, 62%, 43%);
+}
+
+.content_Inicial{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+    text-align: center;
+    border-radius: 15px;
+    border: whitesmoke;
+    box-shadow: 1px 1px 10px hsl(179, 62%, 43%);
+}
+
+
+button{
+    width: 30%;
+    height: 5vh;
+    margin: 2%;
+    padding: 0%;
+    border-radius: 20px;
+    font-weight: 600;
+    background-color: hsl(179, 62%, 43%);
+    border:white;
+}
+
+button:hover{
+    color: black;
+    background-color: hsl(204, 43%, 93%);
+}
+
+#resultado {
+    font-weight: 400;
+    color: green;
+    text-align: center;
+}
+
+.erro {
+    color: red;
+}
+
+.content_Result {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_Result .button_Copia{
+    width: 14vw;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+    color: rgb(160, 160, 160);
+}
+
+.attribution a {
+    color: hsl(244, 87%, 70%);
+    text-decoration: none;
+}
+
