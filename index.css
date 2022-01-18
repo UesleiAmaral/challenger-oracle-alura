@@ -1,19 +1,26 @@
 * {
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 h1 {
-    margin-bottom: 4%;
-    font-size: 2.0rem;
-    font-weight: bolder;
+    margin-bottom: 2%;
+    font-size: 1.6rem;
+    font-weight: bold;
     text-align: center;
     text-decoration: underline;
 
 }
 
+P {
+    margin-bottom: 2% ;
+    text-align: center;
+    font-weight: bold;
+}
+
 .container {
     width: 50%;
-    height: 80vh;
+    height: 82vh;
     margin: 4% auto;
     display: flex;
     justify-content: center;
@@ -25,7 +32,7 @@ h1 {
 }
 
 .content_Inicial{
-
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -34,49 +41,61 @@ h1 {
 }
 
 textarea {
-    width: 100%;
+
+    width: 70%;
+    height: 20vh;
     resize: none;
     text-align: center;
     border-radius: 15px;
-    border: whitesmoke;
+    font-size: 1.2rem;
+    border: rgb(255, 255, 255);
     box-shadow: 1px 1px 10px hsl(179, 62%, 43%);
+
 }
 
 
 button{
     width: 30%;
     height: 5vh;
-    margin: 2%;
+    margin: 4% 2%;
     padding: 0%;
     border-radius: 20px;
     font-weight: 600;
-    background-color: hsl(179, 62%, 43%);
+    color: hsl(204, 43%, 93%);
+    background-color: hsla(179, 62%, 43%, 0.664);
     border:white;
 }
 
 button:hover{
-    color: black;
+    color: hsl(179, 62%, 43%);
     background-color: hsl(204, 43%, 93%);
 }
 
-#resultado {
-    font-weight: 400;
-    color: green;
-    text-align: center;
+.button_Cripto:after {
+    content: 'CRIPTOGRAFAR';
 }
 
-.erro {
-    color: red;
+.button_Descripto:after{
+    content: 'DESCRIPTOGRAFAR';
+}
+
+#resultado {
+    font-weight: bold;
+    color: green;
+    text-align: center;
+    font-size: 1.6rem;
 }
 
 .content_Result {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-.content_Result .button_Copia{
+.content_Result .button_Copia:after{
+    content: 'COPIAR TEXTO';
     width: 14vw;
 }
 
@@ -93,3 +112,25 @@ button:hover{
     text-decoration: none;
 }
 
+@media screen and (max-width:840px ){
+
+    h1{
+        font-size: 1.5rem;
+
+    }
+    .button_Cripto:after {
+        font-size: 12px ;
+        content: 'CRIPTO';
+
+    }
+    .button_Descripto:after{
+        content: 'DESCRIPTO';
+
+    }
+
+.content_Result .button_Copia:after{
+    content: 'COPY';
+
+    }
+
+}
