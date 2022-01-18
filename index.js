@@ -10,7 +10,7 @@ let result = document.querySelector("#resultado");
 
 let button_Result = document.querySelector(".button_Result");
 
-const regex = new RegExp("^[a-z 0-9\b]+$");
+const regex = new RegExp("^[a-z 0-9\b]");
 
 
 button_Cripto.addEventListener('click', (event) => {
