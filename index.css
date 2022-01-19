@@ -1,8 +1,35 @@
 * {
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
 }
 
+figure {
+    margin: 10px auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items:center;
+    align-content: center;
+    border: 1px solid gray;
+
+}
+
+figure img{
+    margin: 0 2%;
+    width: 10%;
+    height: 10vh;
+
+}
+
+figure span {
+
+    width: 30%;
+
+}
 h1 {
     margin-bottom: 2%;
     font-size: 1.6rem;
@@ -19,25 +46,30 @@ P {
 }
 
 .container {
-    width: 50%;
-    height: 82vh;
-    margin: 4% auto;
+    width: 80%;
+    margin: 0% auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
-    box-shadow: 1px 1px 10px hsl(179, 62%, 43%);
+    /* background-color: black; */
+    background-image: url(../imagem/263-2631018_imagens-de-pergaminhos-em-png-papel-pergaminho-png.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
 }
 
 .content_Inicial{
-    width: 100%;
+    width: 70%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
+}
+#moldura{
 }
 
 textarea {
@@ -45,41 +77,51 @@ textarea {
     width: 70%;
     height: 20vh;
     resize: none;
+    margin: 20px;
+    padding:  20px;
     text-align: center;
-    border-radius: 15px;
     font-size: 1.2rem;
-    border: rgb(255, 255, 255);
-    box-shadow: 1px 1px 10px hsl(179, 62%, 43%);
+    outline:none ;
+    border: none;
+    box-shadow: 1PX 1PX 20PX rgba(250, 221, 177, 0);
+    background-image: url(../imagem/263-2631018_imagens-de-pergaminhos-em-png-papel-pergaminho-png.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150%;
 
 }
 
 
 button{
-    width: 30%;
-    height: 5vh;
-    margin: 4% 2%;
+    width: 20%;
+    height: 10vh;
+    margin: 0% 4%;
     padding: 0%;
     border-radius: 20px;
     font-weight: 600;
-    color: hsl(204, 43%, 93%);
-    background-color: hsla(179, 62%, 43%, 0.664);
+    color: hsla(189, 79%, 34%, 0.541);
+    text-align: end;
+    font-size: 1.4rem;
+    background-color: rgba(250, 221, 177, 0);
+    background-image: url(../imagem/12bbbe789e85ac9f79d9835568330d70-ilustracao-de-espada-mediessval.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
     border:white;
 }
 
+button.button_Descripto{
+    text-align: left;
+    background-image: url(../imagem/12bbbe789e85ac9f79d9835568330d70-ilustracao-de-espada-medieval.png);
+}
+
 button:hover{
-    color: hsl(179, 62%, 43%);
-    background-color: hsl(204, 43%, 93%);
-}
+    width: 40%;
 
-.button_Cripto:after {
-    content: 'CRIPTOGRAFAR';
-}
-
-.button_Descripto:after{
-    content: 'DESCRIPTOGRAFAR';
 }
 
 #resultado {
+    padding: 0 25px;
     font-weight: bold;
     color: green;
     text-align: center;
@@ -87,7 +129,7 @@ button:hover{
 }
 
 .content_Result {
-    width: 100%;
+    width: 70%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -95,8 +137,8 @@ button:hover{
 }
 
 .content_Result .button_Copia:after{
-    content: 'COPIAR TEXTO';
-    width: 14vw;
+    /* content: 'COPIAR'; */
+    /* width: 14vw; */
 }
 
 
