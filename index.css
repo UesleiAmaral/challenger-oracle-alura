@@ -4,6 +4,12 @@
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
 }
+body {
+    
+    background-image: url(https://i.ibb.co/wW2GcWk/paisagem-de-floresta-dos-desenhos-animados-com-plantas-e-arvores-43633-5886.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 
 figure {
     margin: 10px auto;
