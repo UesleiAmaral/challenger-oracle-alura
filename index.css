@@ -149,10 +149,10 @@ button:hover{
 
 
 .attribution {
-    font-size: 11px;
+       font-size: 11px;
     text-align: center;
-    background-color: hsl(0, 0%, 100%);
-    color: rgb(160, 160, 160);
+    color: rgb(10, 10, 10);
+
 }
 
 .attribution a {
