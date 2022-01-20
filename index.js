@@ -37,14 +37,14 @@ button_Copia.addEventListener('click', (event) => {
 
     event.preventDefault();
 
-    result.select();
-
-    document.execCommand('copy');
-    frase.value = "";
-    alert("copiado")
+    navigator.clipboard.writeText(result)
+        .then(() => {
+            alert("copiado")
+        })
+        .catch(err => {
+            alert('Algo deu Errado', err);
+        })
 })
-
-
 
 function convert(frase) {
 
