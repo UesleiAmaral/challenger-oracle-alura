@@ -55,7 +55,7 @@ P {
     align-items: center;
     align-content: center;
     /* background-color: black; */
-    background-image: url(../imagem/263-2631018_imagens-de-pergaminhos-em-png-papel-pergaminho-png.png);
+    background-image: url(https://i.ibb.co/qndqMg7/263-2631018-imagens-de-pergaminhos-em-png-papel-pergaminho-png.png);
     background-repeat: no-repeat;
     background-size: 80%;
     background-position: center;
@@ -84,7 +84,7 @@ textarea {
     outline:none ;
     border: none;
     box-shadow: 1PX 1PX 20PX rgba(250, 221, 177, 0);
-    background-image: url(../imagem/263-2631018_imagens-de-pergaminhos-em-png-papel-pergaminho-png.png);
+    background-image: url(https://i.ibb.co/qndqMg7/263-2631018-imagens-de-pergaminhos-em-png-papel-pergaminho-png.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 150%;
@@ -103,7 +103,7 @@ button{
     text-align: end;
     font-size: 1.4rem;
     background-color: rgba(250, 221, 177, 0);
-    background-image: url(../imagem/12bbbe789e85ac9f79d9835568330d70-ilustracao-de-espada-mediessval.png);
+    background-image: url(https://i.ibb.co/7253p0S/12bbbe789e85ac9f79d9835568330d70-ilustracao-de-espada-mediessval.png);
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -112,7 +112,7 @@ button{
 
 button.button_Descripto{
     text-align: left;
-    background-image: url(../imagem/12bbbe789e85ac9f79d9835568330d70-ilustracao-de-espada-medieval.png);
+    background-image: url(https://i.ibb.co/NnrqGPW/12bbbe789e85ac9f79d9835568330d70-ilustracao-de-espada-medieval.png);
 }
 
 button:hover{
