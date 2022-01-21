@@ -37,7 +37,7 @@ button_Copia.addEventListener('click', (event) => {
 
     event.preventDefault();
 
-    navigator.clipboard.writeText(result)
+    navigator.clipboard.writeText(result.innerHTML)
         .then(() => {
             alert("copiado")
         })
